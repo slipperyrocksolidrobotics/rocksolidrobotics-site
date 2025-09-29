@@ -7,13 +7,29 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header>
-    <h1>About Rock Solid Robotics</h1>
-  </header>
-  <section>
-    <p>Rock Solid Robotics is a 501(c)(3) nonprofit serving the Slippery Rock Area School District. Our mission is to provide high-quality STEM education through robotics, starting with a FIRST LEGO League (FLL) program for elementary and middle school students.</p>
-    <p>We aim to build a full-spectrum robotics pipeline from elementary through high school, empowering students with engineering, coding, and teamwork skills that prepare them for the future.</p>
-    <p>Located in the Pittsburgh region — a national capital of robotics — we’re inspired by institutions like Carnegie Mellon University and companies such as Carnegie Robotics, Seegrid, and Astrobotic Technology.</p>
-  </section>
+  <nav>
+    <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+    <div class="nav-links" id="navLinks">
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="donate.html">Donate</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </nav>
+
+  <main>
+    <section>
+      <h1>About Rock Solid Robotics</h1>
+      <p>Rock Solid Robotics is a 501(c)(3) nonprofit serving the Slippery Rock Area School District. Our mission is to provide high-quality STEM education through robotics, starting with a FIRST LEGO League (FLL) program for elementary and middle school students.</p>
+      <p>We aim to build a full-spectrum robotics pipeline from elementary through high school, empowering students with engineering, coding, and teamwork skills that prepare them for the future.</p>
+      <p>Located in the Pittsburgh region — a national capital of robotics — we’re inspired by institutions like Carnegie Mellon University and companies such as Carnegie Robotics, Seegrid, and Astrobotic Technology.</p>
+    </section>
+  </main>
+
+  <script>
+    function toggleMenu() {
+      document.getElementById('navLinks').classList.toggle('active');
+    }
+  </script>
 </body>
 </html>
