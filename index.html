@@ -2,68 +2,62 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Rock Solid Robotics</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
   <header>
-    <img src="rsr-logo.png" alt="Rock Solid Robotics Logo" class="logo" />
-    <h1>Rock Solid Robotics</h1>
-    <p class="tagline">Empowering the Next Generation of Innovators in Slippery Rock</p>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="news.html">News</a></li>
+        <li><a href="support.html">Support RSR</a></li>
+        <li><a href="about.html">About Us</a></li>
+      </ul>
+    </nav>
   </header>
 
-  <nav>
-    <div class="menu-toggle" onclick="toggleMenu()">☰</div>
-    <div class="nav-links" id="navLinks">
-      <a href="index.html">Home</a>
-      <a href="about.html">About Us</a>
-      <a href="donate.html">Donate</a>
-      <a href="contact.html">Contact</a>
-    </div>
-  </nav>
+  <section class="hero">
+    <h1>Empowering the Next Generation of Innovators</h1>
+    <p>Serving the Slippery Rock Area School District and beyond through hands-on STEM education.</p>
+    <a href="events.html" class="btn">Join a Team</a>
+    <a href="support.html" class="btn">Donate</a>
+    <a href="events.html#calendar" class="btn">Upcoming Events</a>
+  </section>
 
-  <main>
-    <section>
-      <h2>Our Mission</h2>
-      <p>Rock Solid Robotics is a registered 501(c)(3) nonprofit dedicated to bringing world-class STEM education to students in the Slippery Rock Area School District. Through hands-on robotics instruction, we equip young minds with the skills, confidence, and curiosity to thrive in tomorrow’s technology-driven world.</p>
-      <ul>
-        <li>Engineering and coding fundamentals</li>
-        <li>Teamwork and problem-solving</li>
-        <li>Real-world applications of science and technology</li>
-        <li>Character development through competition and collaboration</li>
-      </ul>
-      <img src="lego-team.jpg" alt="Students building LEGO robot" class="feature-img" />
-    </section>
+  <section class="mission">
+    <h2>Our Mission</h2>
+    <p>Rock Solid Robotics is an all-volunteer 501(c)(3) nonprofit dedicated to advancing education in science, technology, engineering, and mathematics (STEM) through robotics-focused programs and events.</p>
+  </section>
 
-    <section>
-      <h2>Our Vision</h2>
-      <p>We’re not just launching a robotics team — we’re building a movement. Our long-term goal is to create a vertically integrated robotics program that supports students from their first LEGO build to advanced high school competitions. With your support, we can:</p>
-      <ul>
-        <li>Expand our offerings to include FTC and FRC programs</li>
-        <li>Provide scholarships and equipment for underserved students</li>
-        <li>Host community STEM events and workshops</li>
-        <li>Partner with local educators and industry leaders</li>
-      </ul>
-      <img src="child-coding.jpg" alt="Child coding with LEGO robot" class="feature-img" />
-    </section>
+  <section class="quick-links">
+    <h2>Quick Links</h2>
+    <ul>
+      <li><a href="events.html">Sign Up for Robotics Courses</a></li>
+      <li><a href="news.html">Watch Our Team in Action</a></li>
+      <li><a href="events.html#calendar">View Calendar</a></li>
+    </ul>
+  </section>
 
-    <section>
-      <h2>How You Can Help</h2>
-      <p>Your donation directly supports student access to robotics kits, competition fees, mentorship, and more. As a 501(c)(3), all contributions are tax-deductible and go toward building a stronger, smarter, and more resilient Slippery Rock community.</p>
-      <div class="cta">
-        <a href="donate.html">Donate Now</a>
-        <a href="contact.html">Contact Us</a>
-        <a href="about.html">Learn More</a>
+  <section class="media">
+    <h2>Follow Our Journey</h2>
+    <div class="social-embeds">
+      <div class="facebook-feed">
+        <!-- Replace with actual Facebook embed code -->
+        <iframe src="https://www.facebook.com/plugins/page.php?href=https://www.facebook.com/RockSolidRobotics&tabs=timeline&width=340&height=500" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen></iframe>
       </div>
-      <img src="rocketeersinaction.png" alt="Students collaborating on robotics project" class="feature-img" />
-    </section>
-  </main>
+      <div class="youtube-preview">
+        <!-- Replace with actual YouTube embed or playlist -->
+        <iframe width="340" height="200" src="https://www.youtube.com/embed/PlJ51XUoP-Q" title="Rock Solid Robotics Video" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </div>
+  </section>
 
-  <script>
-    function toggleMenu() {
-      document.getElementById('navLinks').classList.toggle('active');
-    }
-  </script>
+  <footer>
+    <p>© 2025 Rock Solid Robotics | <a href="mailto:info@rocksolidrobotics.org">info@rocksolidrobotics.org</a></p>
+    <p><a href="https://www.facebook.com/RockSolidRobotics" target="_blank">Facebook</a> | <a href="https://www.youtube.com/@RockSolidRobotics" target="_blank">YouTube</a></p>
+  </footer>
 </body>
 </html>
