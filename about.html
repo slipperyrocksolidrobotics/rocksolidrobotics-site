@@ -2,45 +2,79 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>About Us - Rock Solid Robotics</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About Us | Rock Solid Robotics</title>
+  <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
-  <nav>
-    <div class="menu-toggle" onclick="toggleMenu()">☰</div>
-    <div class="nav-links" id="navLinks">
-      <a href="index.html">Home</a>
-      <a href="about.html">About Us</a>
-      <a href="donate.html">Donate</a>
-      <a href="contact.html">Contact</a>
-    </div>
-  </nav>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="news.html">News</a></li>
+        <li><a href="support.html">Support RSR</a></li>
+        <li><a href="about.html">About Us</a></li>
+      </ul>
+    </nav>
+  </header>
 
   <main>
-    <section>
+    <section class="about-intro">
       <h1>About Rock Solid Robotics</h1>
-      <p>Rock Solid Robotics is a 501(c)(3) nonprofit serving the Slippery Rock Area School District. Our mission is to provide high-quality STEM education through robotics, starting with a FIRST LEGO League (FLL) program for elementary and middle school students.</p>
-      <p>We aim to build a full-spectrum robotics pipeline from elementary through high school, empowering students with engineering, coding, and teamwork skills that prepare them for the future.</p>
-      <p>Located in the Pittsburgh region — a national capital of robotics — we’re inspired by institutions like Carnegie Mellon University and companies such as Carnegie Robotics, Seegrid, and Astrobotic Technology.</p>
+      <p>Rock Solid Robotics is an all-volunteer 501(c)(3) nonprofit dedicated to advancing STEM education through robotics programs for students in the Slippery Rock Area School District and beyond.</p>
     </section>
 
-    <section>
-      <h2>Our Leadership Team</h2>
-      <p>Rock Solid Robotics is led by a dedicated group of volunteers who bring passion, experience, and mentorship to every student they serve:</p>
-      <ul>
-        <li><strong>Bob Sovesky</strong> – President and Coach</li>
-        <li><strong>Dave Yackuboskey</strong> – Vice President and Coach</li>
-        <li><strong>Brad Schake</strong> – Treasurer and Coach</li>
-        <li><strong>Karla Sovesky</strong> – Board Member</li>
-      </ul>
+    <section class="compliance">
+      <h2>Commitment to Safety</h2>
+      <p>We comply with FIRST’s Youth Protection Program, including Youth Protection Screenings for Lead Mentors, to ensure a safe and supportive environment for all participants.</p>
+    </section>
+
+    <section class="leadership">
+      <h2>Leadership Team</h2>
+      <div class="team-grid">
+        <div class="team-member">
+          <img src="images/team/robert-sovesky.jpg" alt="Robert Sovesky" />
+          <h3>Robert (Bob) Sovesky</h3>
+          <p>President & Coach</p>
+        </div>
+        <div class="team-member">
+          <img src="images/team/dave-yackuboskey.jpg" alt="Dave Yackuboskey" />
+          <h3>Dave Yackuboskey</h3>
+          <p>Vice-President & Coach</p>
+        </div>
+        <div class="team-member">
+          <img src="images/team/brad-schake.jpg" alt="Brad Schake" />
+          <h3>Brad Schake</h3>
+          <p>Treasurer & Coach</p>
+        </div>
+        <div class="team-member">
+          <img src="images/team/karla-sovesky.jpg" alt="Karla Sovesky" />
+          <h3>Karla Sovesky</h3>
+          <p>Board Member, Coach & Social Media Manager</p>
+        </div>
+        <div class="team-member">
+          <img src="images/team/keith-maloney.jpg" alt="Keith Maloney" />
+          <h3>Keith Maloney</h3>
+          <p>Coach & Fundraiser Manager</p>
+        </div>
+        <div class="team-member">
+          <img src="images/team/mckenna-rawson.jpg" alt="McKenna Rawson" />
+          <h3>McKenna Rawson</h3>
+          <p>Coach & SRASD Liaison</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact">
+      <h2>Contact Us</h2>
+      <p>Email: <a href="mailto:info@rocksolidrobotics.org">info@rocksolidrobotics.org</a></p>
+      <p>Follow us on <a href="https://www.facebook.com/RockSolidRobotics" target="_blank">Facebook</a> and <a href="https://www.youtube.com/@RockSolidRobotics" target="_blank">YouTube</a></p>
     </section>
   </main>
 
-  <script>
-    function toggleMenu() {
-      document.getElementById('navLinks').classList.toggle('active');
-    }
-  </script>
+  <footer>
+    <p>© 2025 Rock Solid Robotics</p>
+  </footer>
 </body>
 </html>
